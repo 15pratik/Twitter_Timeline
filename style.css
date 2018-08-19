@@ -1,0 +1,58 @@
+@charset "utf-8";
+body
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		padding-bottom:10px;
+	}
+table 
+	{
+		font-size: 14px;
+		width: 100%;
+	}
+div.panel
+	{
+		display:none;
+	}
+.slideshowTweet
+	{
+		vertical-align:middle;
+	}
+.slideshowTweet div 
+	{
+		padding: 15px;
+		text-align: center;
+		vertical-align:middle;
+		height: 150px;
+		width:500px;
+		max-height: 150px;
+		max-width: 500px;
+		display:none;
+		border: 1px solid #09F;
+		background-color: #87CEFA;
+	}
+.footer
+	{
+		position:absolute;
+		bottom:30px;
+		height:20px;
+		width:80%;
+	}
+.container
+	{
+		width: 100%;
+		height: 100%;
+		margin:0 auto;
+	}
+.left_col
+	{
+		float:left;
+		width:20%;
+		height:100%;
+		border-right:1px solid grey;
+	}
+.right_col
+	{
+		float:right;
+		width:79%;
+	}
